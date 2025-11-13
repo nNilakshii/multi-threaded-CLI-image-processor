@@ -1,10 +1,6 @@
 # Multi-Threaded CLI Image Processor
 
-Command-line tool written in C++ that converts BMP images to grayscale using a data-parallel, multi-threaded processing model. The project evolves over three phases:
-
-- **Phase 1 – Core:** Build a single-threaded grayscale converter to validate BMP parsing and file I/O.
-- **Phase 2 – Performance:** Parallelize the filter using `std::thread`, partitioning the image into horizontal chunks to leverage all CPU cores and benchmark the speedup.
-- **Phase 3 – Demo:** Polish the repository with benchmarks, sample inputs, before/after visuals, and documentation suitable for recruiters.
+Command-line tool written in C++ that converts BMP images to grayscale using a data-parallel, multi-threaded processing model. 
 
 ### Current Capabilities
 
