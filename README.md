@@ -52,6 +52,15 @@ Speedup: x0.001: ratio single_ms / multi_ms. Cause single-thread version was ins
 
 ```
 
+### Benchmarks
+
+Measured on a MacBook Air (Apple M1, 4 performance cores) using the `assets/marbles.bmp` sample.
+
+| Threads | Time (ms) | Speedup |
+|---------|-----------|---------|
+| 1       | 1.807     | 1.0x    |
+| 4       | 0.652     | 2.77x   |
+
 ### Tests
 
 ```bash
